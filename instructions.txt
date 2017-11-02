@@ -1,0 +1,24 @@
+.NET Framework v3.5 must be installed on the system.
+
+A directory called CodingQuestions must be created on the desktop.
+Directories labelled with coding exercise names (e.g. Question1, Question2, ...) must be created within.
+A different Question.cs file (from for example Average\Question.cs, Complex\Question.cs, etc) must be copied into each Question* directory.
+The file CompileAndRun.cmd must be copied into each Question directory.
+The directory nunit must be copied into the CodingQuestions directory.
+Be sure not to leave the Answer.cs files lying around...
+
+Final structure:
+
+Desktop
+	CodingQuestions
+		nunit
+		Question1
+			CompileAndRun.cmd
+			Question.cs
+		Question2
+			CompileAndRun.cmd
+			Question.cs
+		Question3
+			CompileAndRun.cmd
+			Question.cs
+		...
